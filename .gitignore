@@ -1,0 +1,19 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+
+# Sensitive
+*.pem
+*.csv
+aws-credentials*
+deployment-info.txt
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
